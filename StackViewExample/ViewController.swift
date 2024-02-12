@@ -17,11 +17,9 @@ class ViewController: UIViewController {
         view.backgroundColor = .black
 
         exampleButtonInStackView.titleLabel?.adjustsFontSizeToFitWidth = true
-        exampleButtonInStackView.titleLabel?.adjustsFontSizeToFitWidth = true
         exampleButtonInStackView.layer.cornerRadius = 30
         exampleButtonInStackView.backgroundColor = UIColor.white
 
-        exampleButton.titleLabel?.adjustsFontSizeToFitWidth = true
         exampleButton.titleLabel?.adjustsFontSizeToFitWidth = true
         exampleButton.layer.cornerRadius = 30
         exampleButton.backgroundColor = UIColor.white
