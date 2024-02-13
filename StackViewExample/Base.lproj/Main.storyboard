@@ -43,12 +43,16 @@
                                         <state key="normal" title="This is just a long button title to fill the full screen"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thats just a random text view" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKl-6o-mJ2">
-                                        <rect key="frame" x="3.5" y="80" width="223" height="47.5"/>
+                                        <rect key="frame" x="30" y="80" width="170" height="47.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="OKl-6o-mJ2" firstAttribute="leading" secondItem="6dn-bp-D3H" secondAttribute="leading" constant="30" id="MAT-sr-hQ4"/>
+                                    <constraint firstAttribute="trailing" secondItem="OKl-6o-mJ2" secondAttribute="trailing" constant="30" id="OD5-EI-VZE"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9ZW-Ht-gqc"/>
